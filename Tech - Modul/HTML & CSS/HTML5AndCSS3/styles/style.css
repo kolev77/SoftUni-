@@ -1,0 +1,63 @@
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Cocktails.</h2>
+<h3>@ViewBag.Gallery</h3>
+
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+<div class="col-md-2">
+
+</div>
+<div class="coctailInfo col-md-9 " >
+    <div class="headContainer">
+        <h1 class="cocktailTitle">COCKTAIL #1</h1>
+    </div>
+    <img clas="CocktailImg" src="~/img/cocktail1.jpg" alt="Sample Photo" />
+    <div class="cocktailInfo">
+
+        <div class="cocktailDetails">Created by : </div> 
+        <div class="cocktailDetailsInfo"> Gosho-Vodkata </div>
+        <br/>    
+        <br/>
+        <br/>
+        <div class="cocktailDetails">Posted on :  </div>
+        <div class="cocktailDetailsInfo">  1/9/2016 </div>
+        <br />
+
+        <br />
+        <br /> 
+        <div class="cocktailDetails">Category :</div>
+        <div class="cocktailDetailsInfo">  Cocktails with VODKA </div>
+
+        <br />
+
+        <br />
+        <br /> 
+        <div style="float: left; font-weight: bold;">Tags :   </div>
+        <div style="height: 45%; float: left;   font-weight: bold;font-size:medium; margin-left: 10%; margin-right: 1%;">  NEW </div>
+        <div style="height: 45%; float: left;   font-weight: bold;font-size:medium; margin-left: 10%; margin-right: 1%;"> FRESH </div>
+        <div style="height: 45%; float: left;   font-weight: bold;font-size:medium; margin-left: 10%; margin-right: 1%;">  2016 </div>
+        <div style="height: 45%; float: left;   font-weight: bold;font-size:medium; margin-left: 10%; margin-right: 1%;">  BEST </div>
+
+
+        <br />
+        <br /> 
+
+    
+    </div>
+    <div class="col-md-2">
+
+    </div>
+    <div class="CockDesc" style="margin-top: 40%; margin-bottom: 10px; padding-left: 10px; border-radius: 10px">
+        <p style="color: white">
+            Shaken and served up in a cocktail glass with a sugared rim.
+            Created during World War I when a certain regular customer arrived at the Hôtel Ritz Cambon Bar in Paris in his motorcycle sidecar and asked for a cocktail that would help take off the chill.
+            Recipes first appear in 1922 — in Harry's ABC of Mixing Cocktails by Harry MacElhone and Cocktails and How to Mix Them by Robert Vermeire of the Embassy Club — with credit to Pat MacGarry the celebrated bar-tender of Buck's Club, London.  Harry Craddock
+            in The Savoy Cocktail Book, published in 1930, perfected the proportions.
+        </p> 
+    </div>
+
+</div>
+<div class="col-md-2">
+
+</div>

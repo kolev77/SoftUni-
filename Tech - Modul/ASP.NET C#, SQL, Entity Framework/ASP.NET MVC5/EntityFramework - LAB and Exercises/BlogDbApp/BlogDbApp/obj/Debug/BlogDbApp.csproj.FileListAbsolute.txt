@@ -1,0 +1,26 @@
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.exe.config
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.exe
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.pdb
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.dll
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.xml
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.exe
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.pdb
+D:\SoftUni\ASP.NET MVC5\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.csprojResolveAssemblyReference.cache
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.exe.config
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.exe
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.pdb
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.exe
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.pdb
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.dll
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.xml
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.csprojResolveAssemblyReference.cache
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB and Exercises\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.exe.config
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB and Exercises\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.exe
+D:\SoftUni\ASP.NET MVC5\EntityFramework - LAB and Exercises\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.pdb
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\BlogDbApp\BlogDbApp\bin\Debug\BlogDbApp.exe.config
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.exe
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\BlogDbApp\BlogDbApp\obj\Debug\BlogDbApp.pdb

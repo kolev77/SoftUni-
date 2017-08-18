@@ -1,0 +1,1 @@
+1. In Solution Explorer -- > Show all files -->  Delete "bin" and "obj"

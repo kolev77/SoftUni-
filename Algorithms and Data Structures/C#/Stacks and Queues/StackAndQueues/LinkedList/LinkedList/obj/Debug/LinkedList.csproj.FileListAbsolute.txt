@@ -1,0 +1,6 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\LinkedList\bin\Debug\LinkedList.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\LinkedList\obj\Debug\LinkedList.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\LinkedList\obj\Debug\LinkedList.pdb

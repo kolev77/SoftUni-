@@ -1,0 +1,33 @@
+		Stack -> Last In First Out 
+
+- Functions:
+	1. Push - pushing an element at the top of the stack ( 
+	2. Pop - Popping element from the top of the stack.(firstElement) We could save its value or just remove it from the stack.
+	3. Peek - Getting the topmost element without removing it. 
+
+- Creating a Stack:		
+	ArrayDeque<Integer> stack = new ArrayDeque<>();
+						(push,pop,peek)
+
+- Stack Utility Methods
+       Integer size = stack.size();
+       boolean isEmpty = stack.isEmpty();
+       boolean exists = stack.contains(2);
+       Integer[] arr = stack.toArray();
+
+		
+
+		Queue -> First In First Out
+
+
+- Functions: 
+	1.Add - Adding element at the end of the queue  (throws exception if queue is full)
+	2.Offer - Adding element at the end of the queue (returns false if queue is full)
+	3.Remove - Removing first element (throws exception if queue is empty)
+	4.Poll - Removing first element (returns null if queue is empty)
+	5.Peek - Getting first element without removing it. 
+
+- Creating a Queue:
+		ArrayDeque<Integer> queue= new ArrayDeque<>();
+
+

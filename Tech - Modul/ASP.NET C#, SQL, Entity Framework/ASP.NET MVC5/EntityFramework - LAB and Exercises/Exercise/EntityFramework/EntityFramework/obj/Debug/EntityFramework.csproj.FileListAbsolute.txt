@@ -1,0 +1,10 @@
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe.config
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.pdb
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.dll
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.xml
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csprojResolveAssemblyReference.cache
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\obj\Debug\EntityFramework.exe
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\EntityFramework - LAB and Exercises\Exercise\EntityFramework\EntityFramework\obj\Debug\EntityFramework.pdb

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragments/layout :: head"
+      th:with="pageTitle='List Files'"></head>
+<body>
+    <header th:include="fragments/layout :: site-header"/>
+    <main>
+        <div th:each="f : ${files}">
+        <a th:href="@{/files(dir=${f.path})}"
+           th:text="${f.name}" />
+            </div>
+    </main>
+    <footer th:include="fragments/layout :: site-footer"/>
+</body>
+</html>

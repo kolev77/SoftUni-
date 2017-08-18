@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+html{
+    font-family: "Open Sans";
+    max-width: 1024px;
+    max-height: 756px;
+}
+/*MENU*/
+nav {
+    margin: 0 auto;
+    padding-top: 15px
+}
+
+section.solo-wireless{
+    margin-bottom: 15px;
+}
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 40px;
+    text-decoration: none;
+    color: #D2D2D2;
+    font-size: 20px;
+}
+
+/*First Section*/
+section.solo-wireless {
+    display: inline-flex;
+}
+
+div.solo-desc h2 {
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+section.solo-wireless div.solo-desc {
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+
+section.solo-wireless > img {
+    width: 510px;
+    height: 520px;
+
+}
+
+div.solo-desc {
+    margin-left: 15px;
+
+}
+
+ p {
+    line-height: 1.8;
+}
+
+.solo-wireless a.btn {
+    text-decoration: none;
+    color: white;
+    background: #FF0000;
+    padding: 8px 15px 8px 15px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+/*Second Section*/
+
+section.power-beats {
+    display: inline-block;
+
+}
+
+section.power-beats img {
+    width: 40%;
+    height: 40%;
+}
+
+section.power-beats div.power-beats-desc {
+    width: 47%;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+
+section.power-beats div.power-beats-desc h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+section.power-beats div.power-beats-desc h1 {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: medium;
+    position: relative;
+    top: -42px;
+    left: 142px;
+    width: 300px;
+}
+
+section.power-beats div.power-beats-desc h1 span {
+    font-weight: bold;
+}
+
+p.price{
+    font-size: 36px;
+    font-weight: bold;
+    width: 200px;
+}
+
+div.buy-info a{
+    float: right;
+    position: relative;
+    bottom: 89px;
+    right: 159px;
+    text-decoration: none;
+    background-color: #FF0000;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 100;
+    font-size: larger;
+
+}
+
+
+/*third section*/
+
+section.try-for-free{
+    background-color: #575757;
+    display: inline-block;
+    width: 101%;
+    padding-bottom: 0px;
+}
+
+section.try-for-free img{
+    position: relative;
+    left: 25%;
+    top: 30px;
+    width: 77px;
+    height: 77px;
+}
+
+section.try-for-free h1 {
+    position: relative;
+    left: 368px;
+    width: 350px;
+    bottom: 59px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 100;
+    color: white;
+}
+
+section.try-for-free h1 span{
+    font-weight:bold;
+}
+
+section.try-for-free a{
+text-decoration: none;
+color: white;
+font-size: xx-large;
+border-bottom: 1px solid white;
+position: relative;
+left: 445px;
+bottom: 29px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+/*last section*/
+
+section.photos{
+    display: flex;
+    height: 700px;
+    background-color: #DADADA;
+}
+
+section.photos img.first{
+    width:50%;
+
+}
+
+section.photos img.second{
+    position: relative;
+    left: 236px;
+    bottom: 292px;
+}
+
+section.photos h1{
+    position: relative;
+    top: 80px;
+    left: 47px;
+    font-size: 83px;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+section.photos h2{
+    position: relative;
+    bottom: 439px;
+    left: 30px;
+    font-weight: 100;
+    font-size:45px;
+}
+
+section.photos h2 span{
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #FF0000;
+}

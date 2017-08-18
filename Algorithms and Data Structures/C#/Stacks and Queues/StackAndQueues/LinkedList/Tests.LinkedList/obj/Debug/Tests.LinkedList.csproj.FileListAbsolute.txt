@@ -1,0 +1,8 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\bin\Debug\Tests.LinkedList.dll
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\bin\Debug\Tests.LinkedList.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\bin\Debug\LinkedList.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\bin\Debug\LinkedList.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\obj\Debug\Tests.LinkedList.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\obj\Debug\Tests.LinkedList.dll
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\Tests.LinkedList\obj\Debug\Tests.LinkedList.pdb

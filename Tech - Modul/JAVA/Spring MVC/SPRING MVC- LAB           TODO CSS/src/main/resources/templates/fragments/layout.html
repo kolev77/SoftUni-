@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="UTF-8" />
+    <title th:if="${pageTitle}" th:text="${pageTitle}"></title>
+    <link rel="stylesheet" href="content/site.css" />
+</head>
+<body>
+    <header th:fragment="site-header">
+        <div style="background: #EEE;">
+        Аз съм хедърче !
+        </div>
+        <a href=" /date">Датите</a>
+        <a href=" /hello">Здрасти</a>
+        <a href=" /greeting">Поздрави</a>
+        <a href=" /numbers">Числата</a>
+    </header>
+
+    <footer th:fragment="site-footer">
+        <div style="background: #EEE;">
+        (c) Georgi 2016
+            </div>
+    </footer>
+</body>
+</html>

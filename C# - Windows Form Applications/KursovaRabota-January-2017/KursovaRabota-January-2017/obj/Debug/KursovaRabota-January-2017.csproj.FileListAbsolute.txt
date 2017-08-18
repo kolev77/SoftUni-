@@ -1,0 +1,32 @@
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\bin\Debug\KursovaRabota-January-2017.exe.config
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.csprojResolveAssemblyReference.cache
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota_January_2017.Properties.Resources.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.csproj.GenerateResource.Cache
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\bin\Debug\KursovaRabota-January-2017.exe
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\bin\Debug\KursovaRabota-January-2017.pdb
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\primer1.Form1.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.exe
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.pdb
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota_January_2017.SearchByEGN.resources
+C:\Users\Rostislav Kolev\Desktop\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota_January_2017.SearchByName.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\bin\Debug\KursovaRabota-January-2017.exe.config
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.exe
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.pdb
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\bin\Debug\KursovaRabota-January-2017.exe
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\bin\Debug\KursovaRabota-January-2017.pdb
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\primer1.Form1.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form2.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form3.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form4.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form5.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota_January_2017.SearchByEGN.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota_January_2017.SearchByName.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\WindowsFormsApplication1.Form8.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota_January_2017.Properties.Resources.resources
+E:\SoftUni\C# - Windows Form Applications\KursovaRabota-January-2017\KursovaRabota-January-2017\obj\Debug\KursovaRabota-January-2017.csproj.GenerateResource.Cache

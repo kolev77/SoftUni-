@@ -1,0 +1,5 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\CircularQueue\CircularQueue\bin\Debug\CircularQueue.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\CircularQueue\CircularQueue\bin\Debug\CircularQueue.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\CircularQueue\CircularQueue\obj\Debug\CircularQueue.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\CircularQueue\CircularQueue\obj\Debug\CircularQueue.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\CircularQueue\CircularQueue\obj\Debug\CircularQueue.pdb

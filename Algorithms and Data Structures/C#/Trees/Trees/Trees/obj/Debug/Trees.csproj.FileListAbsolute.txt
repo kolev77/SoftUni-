@@ -1,0 +1,6 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\Trees\bin\Debug\Trees.exe.config
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\Trees\bin\Debug\Trees.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\Trees\bin\Debug\Trees.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\Trees\obj\Debug\Trees.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\Trees\obj\Debug\Trees.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\Trees\obj\Debug\Trees.pdb

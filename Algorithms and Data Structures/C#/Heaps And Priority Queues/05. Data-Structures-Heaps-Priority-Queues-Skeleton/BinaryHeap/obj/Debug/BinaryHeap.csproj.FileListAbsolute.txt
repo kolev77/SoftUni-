@@ -1,0 +1,5 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap\bin\Debug\BinaryHeap.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap\bin\Debug\BinaryHeap.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap\obj\Debug\BinaryHeap.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap\obj\Debug\BinaryHeap.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap\obj\Debug\BinaryHeap.pdb

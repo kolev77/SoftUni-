@@ -1,0 +1,55 @@
+body > header {
+    width: 100%;
+    height: 100px;
+    background-color: #d90000;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#d90000, endColorstr=#d90000);
+    background-image: -moz-linear-gradient(left, #d90000 0%, #d90000 30%, #0ca613 66%, #0ca613 30%, #0000f2 66%, #0000f2 100%);
+    background-image: linear-gradient(left, #d90000 0%, #d90000 30%, #0ca613 66%, #0ca613 30%, #0000f2 66%, #0000f2 100%);
+    background-image: -webkit-linear-gradient(left, #d90000 0%, #d90000 30%, #0ca613 66%, #0ca613 30%, #0000f2 66%, #0000f2 100%);
+    background-image: -o-linear-gradient(left, #d90000 0%, #d90000 30%, #0ca613 66%, #0ca613 30%, #0000f2 66%, #0000f2 100%);
+    background-image: -ms-linear-gradient(left, #d90000 0%, #d90000 30%, #0ca613 66%, #0ca613 30%, #0000f2 66%, #0000f2 100%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%, #d90000), color-stop(30%, #d90000), color-stop(66%, #0ca613), color-stop(30%, #0ca613), color-stop(66%, #0000f2), color-stop(100%, #0000f2));
+    text-align: center;
+    color: yellow;
+    font-weight: 600;
+    font-size: 30pt;
+    height: 60px;
+    padding-top: 9px;
+}
+
+aside nav {
+    float: left;
+    background-color: darkgrey;
+    border-radius: 8%;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+main section{
+    width: 860px;
+    display: inline-block;
+}
+
+main section article{
+    background-color: rgba(245, 230, 254, 0.9);
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 3px;
+}
+
+main section article #webColors{
+    background-color: red;
+    margin: 10px;
+
+    border-radius: 5px;
+}
+main {
+    background: url('images/bg.jpg');
+}
+
+nav ul li a::before {
+    content: url("images/a.png");
+    position: relative;
+}

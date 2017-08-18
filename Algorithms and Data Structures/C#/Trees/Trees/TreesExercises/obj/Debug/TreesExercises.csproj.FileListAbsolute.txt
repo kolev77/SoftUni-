@@ -1,0 +1,6 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\TreesExercises\bin\Debug\TreesExercises.exe.config
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\TreesExercises\bin\Debug\TreesExercises.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\TreesExercises\bin\Debug\TreesExercises.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\TreesExercises\obj\Debug\TreesExercises.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\TreesExercises\obj\Debug\TreesExercises.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Trees\Trees\TreesExercises\obj\Debug\TreesExercises.pdb

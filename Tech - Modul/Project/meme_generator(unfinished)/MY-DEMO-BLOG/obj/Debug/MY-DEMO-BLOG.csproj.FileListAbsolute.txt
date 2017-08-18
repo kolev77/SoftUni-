@@ -1,0 +1,207 @@
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\csc.exe
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\System.Collections.Immutable.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\System.Reflection.Metadata.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\vbc.exe
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\VBCSCompiler.exe
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\roslyn\VBCSCompiler.exe.config
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.dll.config
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.pdb
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Antlr3.Runtime.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\EntityFramework.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\EntityFramework.SqlServer.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Google.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Web.Infrastructure.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Newtonsoft.Json.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Owin.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Helpers.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Mvc.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Optimization.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Razor.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.WebPages.Deployment.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.WebPages.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.WebPages.Razor.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\WebGrease.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Google.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Helpers.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Mvc.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Optimization.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.Razor.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.WebPages.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.WebPages.Deployment.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\System.Web.WebPages.Razor.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Antlr3.Runtime.pdb
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Newtonsoft.Json.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\EntityFramework.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\EntityFramework.SqlServer.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.csprojResolveAssemblyReference.cache
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.pdb
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\csc.exe
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\System.Collections.Immutable.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\System.Reflection.Metadata.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\vbc.exe
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\VBCSCompiler.exe
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\VBCSCompiler.exe.config
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.dll.config
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.pdb
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Antlr3.Runtime.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.SqlServer.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Google.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Web.Infrastructure.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Newtonsoft.Json.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Owin.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Helpers.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Mvc.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Optimization.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Razor.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Deployment.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Razor.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\WebGrease.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Google.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Helpers.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Mvc.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Optimization.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Razor.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Deployment.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Razor.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Antlr3.Runtime.pdb
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Newtonsoft.Json.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.SqlServer.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.dll
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.pdb
+D:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.csprojResolveAssemblyReference.cache
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\csc.exe
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\System.Collections.Immutable.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\System.Reflection.Metadata.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\vbc.exe
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\VBCSCompiler.exe
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\roslyn\VBCSCompiler.exe.config
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.dll.config
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\MY-DEMO-BLOG.pdb
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Antlr3.Runtime.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.SqlServer.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Core.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Cookies.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Facebook.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Google.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.OAuth.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Twitter.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Web.Infrastructure.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Newtonsoft.Json.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Owin.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Helpers.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Mvc.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Optimization.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Razor.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Deployment.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Razor.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\WebGrease.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Cookies.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Facebook.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Google.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.OAuth.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.Owin.Security.Twitter.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Helpers.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Mvc.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Optimization.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.Razor.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Deployment.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\System.Web.WebPages.Razor.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Antlr3.Runtime.pdb
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Newtonsoft.Json.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\EntityFramework.SqlServer.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Core.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.csprojResolveAssemblyReference.cache
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.dll
+E:\SoftUni\Tech - Modul\Project\TeamProject\MY-DEMO-BLOG - Copy\MY-DEMO-BLOG\obj\Debug\MY-DEMO-BLOG.pdb

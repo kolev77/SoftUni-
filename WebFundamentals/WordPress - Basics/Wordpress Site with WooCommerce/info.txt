@@ -1,0 +1,8 @@
+domain - bebettershop.website.tk
+pass - 700961bebetter
+
+cpanel - Username: wetk_20020981
+	 Password: 700961bebetter
+
+wp - admin
+     adminskaParola123oho

@@ -1,0 +1,1 @@
+D:\SoftUni\Tech - Modul\ASP.NET C#, SQL, Entity Framework\ASP.NET MVC5\Blog-Demo\Blog-Demo\obj\Debug\Blog-Demo.csprojResolveAssemblyReference.cache

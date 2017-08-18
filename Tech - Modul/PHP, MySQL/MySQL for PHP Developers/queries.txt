@@ -1,0 +1,32 @@
+SELECT * FROM users;
+SELECT * FROM users WHERE username = 'teo';
+SELECT *
+FROM users ORDER BY username;
+SELECT username, full_name FROM users;
+SELECT * FROM users
+WHERE full_name LIKE 'M%'
+OR full_name LIKE 'P%';
+SELECT * FROM users ORDER BY full_name DESC LIMIT 3;
+SELECT * FROM posts JOIN users on posts.user_id = users.id;
+SELECT p.title AS post, u.username AS  author
+FROM posts p JOIN users u
+on p.user_id = u.id;
+INSERT INTO posts(title, content, user_id)
+    VALUES ('New Title', 'Some new content', 3);
+SELECT * FROM posts;
+INSERT INTO users (username, full_name)
+    VALUES ('joey', 'Joey Tribbiani'), ('ros', 'Ross Geller'),
+      ('Regina Phalange', 'Phoebe Buffa');
+SELECT *
+FROM users;
+
+UPDATE posts SET title = 'Title updated!' WHERE id = 2;
+SELECT * FROM posts WHERE id = 2;
+UPDATE posts SET date = str_to_date('31-05-2016', '%d-%m-%Y')
+WHERE YEAR(date) = 2016;
+SELECT * FROM posts WHERE date = '2016-05-31';
+
+DELETE FROM posts WHERE id = 6;
+DELETE FROM posts WHERE id = (SELECT id FROM users WHERE username = 'joey');
+
+

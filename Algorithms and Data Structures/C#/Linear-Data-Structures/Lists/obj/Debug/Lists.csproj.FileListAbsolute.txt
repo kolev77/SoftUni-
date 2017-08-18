@@ -1,0 +1,8 @@
+C:\Users\Pesho\Documents\Visual Studio 2017\Projects\DS\Skeletons\DS01-Lists\Linear-Data-Structures\Lists\bin\Debug\Lists.exe.config
+C:\Users\Pesho\Desktop\Linear-Data-Structures\Lists\bin\Debug\Lists.exe.config
+E:\SoftUni\Algorithms and Data Structures\C#\Linear-Data-Structures\Lists\bin\Debug\Lists.exe.config
+E:\SoftUni\Algorithms and Data Structures\C#\Linear-Data-Structures\Lists\bin\Debug\Lists.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Linear-Data-Structures\Lists\bin\Debug\Lists.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Linear-Data-Structures\Lists\obj\Debug\Lists.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Linear-Data-Structures\Lists\obj\Debug\Lists.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Linear-Data-Structures\Lists\obj\Debug\Lists.pdb

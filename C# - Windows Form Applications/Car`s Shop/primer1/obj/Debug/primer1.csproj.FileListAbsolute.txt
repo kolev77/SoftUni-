@@ -1,0 +1,28 @@
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\bin\Debug\primer1.exe.config
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\bin\Debug\primer1.exe
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\bin\Debug\primer1.pdb
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.exe
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.pdb
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Form1.resources
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Form2.resources
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Form3.resources
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Form4.resources
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Form5.resources
+D:\Documents\Visual Studio 2015\Projects\primer1\primer1\obj\Debug\primer1.Form6.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\bin\Debug\primer1.exe.config
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.exe
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.pdb
+C:\Users\Rostislav Kolev\Desktop\primer1\bin\Debug\primer1.exe
+C:\Users\Rostislav Kolev\Desktop\primer1\bin\Debug\primer1.pdb
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.csprojResolveAssemblyReference.cache
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Form1.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Form2.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Form3.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Form4.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Form5.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Form6.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.Properties.Resources.resources
+C:\Users\Rostislav Kolev\Desktop\primer1\obj\Debug\primer1.csproj.GenerateResource.Cache

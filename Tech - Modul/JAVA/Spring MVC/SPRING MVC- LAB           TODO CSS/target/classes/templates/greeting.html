@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Pozdravche</title>
+</head>
+<body>
+<header th:include="fragments/layout :: site-header"/>
+ Hello, <b th:text="${personForGreeting}"></b>
+<h2>Form</h2>
+<form>
+    <input type="text" name="name" />
+    <input type="submit" value="Дай поздрав!" />
+</form>
+<footer th:include="fragments/layout :: site-footer"/>
+</body>
+</html>

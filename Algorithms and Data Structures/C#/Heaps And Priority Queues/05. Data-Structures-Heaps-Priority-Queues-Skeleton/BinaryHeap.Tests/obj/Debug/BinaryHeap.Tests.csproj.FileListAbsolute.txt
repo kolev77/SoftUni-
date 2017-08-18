@@ -1,0 +1,16 @@
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.Tests.dll
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.Tests.pdb
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.exe
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.pdb
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\obj\Debug\BinaryHeap.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\obj\Debug\BinaryHeap.Tests.dll
+C:\Users\Pesho\Desktop\DS03\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\obj\Debug\BinaryHeap.Tests.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.Tests.dll
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.Tests.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\bin\Debug\BinaryHeap.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\obj\Debug\BinaryHeap.Tests.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\obj\Debug\BinaryHeap.Tests.dll
+E:\SoftUni\Algorithms and Data Structures\C#\Heaps And Priority Queues\05. Data-Structures-Heaps-Priority-Queues-Skeleton\BinaryHeap.Tests\obj\Debug\BinaryHeap.Tests.pdb

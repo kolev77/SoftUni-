@@ -1,0 +1,26 @@
+D:\devel\Warehouse\Warehouse\bin\Debug\Warehouse.exe.config
+D:\devel\Warehouse\Warehouse\bin\Debug\Warehouse.exe
+D:\devel\Warehouse\Warehouse\bin\Debug\Warehouse.pdb
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.csprojResolveAssemblyReference.cache
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.GenerateResource.Cache
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.exe
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.pdb
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.StartForm.resources
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.ItemsForm.resources
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.ProvidersForm.resources
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.ReportForm.resources
+D:\devel\Warehouse\Warehouse\obj\Debug\Warehouse.SearchForm.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\bin\Debug\Warehouse.exe.config
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.exe
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.pdb
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\bin\Debug\Warehouse.exe
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\bin\Debug\Warehouse.pdb
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csprojResolveAssemblyReference.cache
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.ProvidersForm.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.ReportForm.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.SearchForm.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.StartForm.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.ItemsForm.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
+C:\Users\Rostislav Kolev\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.GenerateResource.Cache

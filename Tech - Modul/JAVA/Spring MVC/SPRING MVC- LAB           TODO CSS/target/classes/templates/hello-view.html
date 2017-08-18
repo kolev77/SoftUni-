@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Let`s play with Spring MVC</title>
+</head>
+<body>
+<header th:include="fragments/layout :: site-header"/>
+    Hello, you have a message:
+    <p th:text="${msg}"></p>
+    <h1>Date</h1>
+    <div th:text="${date}"></div>
+<footer th:include="fragments/layout :: site-footer"/>
+</body>
+</html>

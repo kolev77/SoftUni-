@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+<style>
+    .title { background: #DDD; padding: 10px }
+    .body {  background: #DDF; padding: 10px; margin-left: 15px }
+</style>
+</head>
+<body>
+    <button onclick="callKinvey()">AJAX Call</button>
+    <script>
+
+
+     function callKinvey() {
+
+
+        $.ajax({
+            method: "GET",
+            url: "https://baas.kinvey.com/appdata/kid_rkOroa8S/Posts",
+            headers: {
+                "Authorization": "Basic " + btoa("guest:guest")
+            },
+            //data: { … },
+            success: function (data, status) {
+                showPosts(data);
+            },
+            error: function (data, status) {
+                $('body').append(JSON.stringify(data));
+            }
+        });
+    }
+    function showPosts(Posts) {
+        for (let p of Posts) {
+            $('body').append($('<div class="title">').text(p.title));
+            $('body').append($('<div class="body">').text(p.body));
+        }
+    }
+        </script>
+<br>
+Title: <input type="text" id="newPostTitle" />
+Body: <input type="text" id="newPostBody"/>
+<button onclick="createPost()">Create New Post</button>
+<script>
+    function createPost() {
+        $.ajax({
+            method: "POST",
+            url: "https://baas.kinvey.com/appdata/kid_rkOroa8S/Posts",
+            headers: {
+                "Authorization": "Basic " + btoa("guest:guest")
+            },
+            data:{
+                title: $('#newPostTitle').val(),
+                body:$('#newPostBody').val()
+            } ,
+            success: function (data, status) {
+                alert('Created');
+                callKinvey();
+              //  showPosts( );
+            },
+            error: function (data, status) {
+                $('body').append(JSON.stringify(data));
+            }
+        });
+    }
+</script>
+    </body>
+</html>

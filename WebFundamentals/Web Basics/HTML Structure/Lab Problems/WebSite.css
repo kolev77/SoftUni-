@@ -1,0 +1,66 @@
+body > header {
+    background: chartreuse;
+}
+
+body > footer {
+    background: chartreuse;
+    text-align: center;
+    padding: 5px;
+}
+
+#siteheader ul li{
+    display: inline-block;
+
+}
+
+#siteheader nav {
+    display: inline-block;
+}
+#siteheader img {
+    padding: 10px;
+    border-radius: 30%;
+}
+
+main > aside{
+    float: right;
+    background: deepskyblue;
+    padding: 10px;
+}
+
+main > aside > nav > a{
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+nav#topmenu ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav#topmenu li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav#topmenu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#topmenu a:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+
+

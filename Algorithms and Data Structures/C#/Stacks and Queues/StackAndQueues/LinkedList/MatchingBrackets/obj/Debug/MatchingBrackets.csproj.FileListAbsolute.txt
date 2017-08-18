@@ -1,0 +1,6 @@
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\MatchingBrackets\bin\Debug\MatchingBrackets.exe.config
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\MatchingBrackets\bin\Debug\MatchingBrackets.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\MatchingBrackets\bin\Debug\MatchingBrackets.pdb
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\MatchingBrackets\obj\Debug\MatchingBrackets.csprojResolveAssemblyReference.cache
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\MatchingBrackets\obj\Debug\MatchingBrackets.exe
+E:\SoftUni\Algorithms and Data Structures\C#\Stacks and Queues\StackAndQueues\LinkedList\MatchingBrackets\obj\Debug\MatchingBrackets.pdb

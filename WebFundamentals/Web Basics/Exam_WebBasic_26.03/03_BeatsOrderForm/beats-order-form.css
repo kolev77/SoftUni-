@@ -1,0 +1,115 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+html{
+    font-family: 'Open Sans';
+    display: inline-block;
+    text-align: center;
+}
+body{
+    max-width: 1024px;
+    display: inline-block;
+    background: linear-gradient(90deg, #153640, #5F676D);
+
+}
+.main-form{
+    display: flex;
+    float: left;
+    margin: 30px auto;
+    background: #FAFAFA;
+    border-radius: 10px;
+    height: 622px;
+}
+
+.main-form img{
+    float: left;
+    padding-left: 40px;
+    margin-bottom: -40px;
+    margin-top: -3px;  }
+
+
+
+section.forms{
+    float: right;
+    display: inline-block;
+}
+
+section.forms h2{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    background-color: #FAFAFA;
+    float: left;
+}
+
+.right h2{
+    padding: 50px;
+    color: #9B9B9B;
+    text-transform: uppercase;
+    width: 65%;
+    font-size: 36px;
+    float: right;
+    text-align: right;
+}
+
+.right h2.price{
+    position: relative;
+    top: -145px;
+    color: #767676;
+}
+
+.right{
+    display: inline-block;
+    float: right;
+    padding: 31px;
+}
+
+.left{
+    float: left;
+    padding: 10px;
+    top: 99px;
+    position: relative;
+
+}
+
+section.forms{
+    display: inline-flex;
+    color: black;
+    margin-right: 25%;
+    top: -253px;
+    left: 98px;
+    position: relative;
+}
+
+
+.btn{
+    position: relative;
+    top: -233px;
+    left: 161px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FAFAFA;
+    background-color: #535E66;
+    border-radius: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+section.forms input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #153640;
+    background-color: #FAFAFA;
+    padding-left: 30px;
+
+}
+
+.right div.form-field i{
+    font-size: larger;
+    position: relative;
+    top: 38px;
+    right: 89px;
+}
