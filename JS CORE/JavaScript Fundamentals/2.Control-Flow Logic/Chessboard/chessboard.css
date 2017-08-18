@@ -1,0 +1,14 @@
+.chessboard {
+    display: inline-block;
+}
+span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.black {
+    background: black;
+}
+.white{
+    background: white;
+}

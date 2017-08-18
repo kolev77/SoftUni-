@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the full year of a given date.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        var d = new Date("July 21, 2016 01:15:00");
+        var n = d.getFullYear();
+        document.getElementById("demo").innerHTML = n;
+    }
+</script>
+
+</body>
+</html>
+

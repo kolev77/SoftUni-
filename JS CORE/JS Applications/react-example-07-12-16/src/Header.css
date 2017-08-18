@@ -1,0 +1,15 @@
+.header {
+    background: orange;
+}
+
+.header a{
+    color: green;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: chartreuse;
+}
+

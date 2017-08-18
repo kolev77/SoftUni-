@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki Parser</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div>
+    <p id="wiki">
+        =Document title=
+        ==First segment==
+        '''bold 1''' word ''italics 1'' '''bold2'''
+        [[hyper first]] '''Bold three''' ''italics2'''
+        word [[hyper2]] [[hyperlink2|with Label]]
+        ==Second segment==
+        ===Third segment===
+        word '''word'''[[pipe|bomb]]
+        on of 34,800. Males constitute 52% of the population and females 48%. Parola has an average literacy rate of 69%, higher than the national average of 59.5%: male literacy is 76%, and female literacy is 61%. In Parola, 13% of the population is under 6 years of age.
+    </p>
+</div>
+<script src="wiki-parser.js"></script>
+<script>
+    window.onload = function () {
+        wikiParser('#wiki');
+    }
+</script>
+</body>
+</html>

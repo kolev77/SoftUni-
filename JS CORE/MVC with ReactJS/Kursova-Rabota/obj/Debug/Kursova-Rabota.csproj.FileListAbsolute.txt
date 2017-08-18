@@ -1,0 +1,28 @@
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\bin\Debug\Kursova-Rabota.exe.config
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\bin\Debug\Kursova-Rabota.exe
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\bin\Debug\Kursova-Rabota.pdb
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova-Rabota.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova_Rabota.Properties.Resources.resources
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova-Rabota.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova-Rabota.exe
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova-Rabota.pdb
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova_Rabota.Menu.resources
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova_Rabota.InserData.resources
+E:\Visual Studio Projects\Team Project\Kursova-Rabota\Kursova-Rabota\obj\Debug\Kursova_Rabota.GetData.resources
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\bin\Debug\Kursova-Rabota.exe.config
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova-Rabota.exe
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova-Rabota.pdb
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\bin\Debug\Kursova-Rabota.exe
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\bin\Debug\Kursova-Rabota.pdb
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova-Rabota.csprojResolveAssemblyReference.cache
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova_Rabota.GetData.resources
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova_Rabota.InserData.resources
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova_Rabota.Menu.resources
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova_Rabota.Properties.Resources.resources
+C:\Users\Rostislav Kolev\Desktop\Kursova-Rabota\obj\Debug\Kursova-Rabota.csproj.GenerateResource.Cache
+C:\Users\Rostislav Kolev\Documents\Kursova-Rabota\bin\Debug\Kursova-Rabota.exe.config
+C:\Users\Rostislav Kolev\Documents\Kursova-Rabota\obj\Debug\Kursova-Rabota.exe
+C:\Users\Rostislav Kolev\Documents\Kursova-Rabota\obj\Debug\Kursova-Rabota.pdb
+C:\Users\Rostislav Kolev\Desktop\MVC with ReactJS\Kursova-Rabota\bin\Debug\Kursova-Rabota.exe.config
+C:\Users\Rostislav Kolev\Desktop\MVC with ReactJS\Kursova-Rabota\obj\Debug\Kursova-Rabota.exe
+C:\Users\Rostislav Kolev\Desktop\MVC with ReactJS\Kursova-Rabota\obj\Debug\Kursova-Rabota.pdb

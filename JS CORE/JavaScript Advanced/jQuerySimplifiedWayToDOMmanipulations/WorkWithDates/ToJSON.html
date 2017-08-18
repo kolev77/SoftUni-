@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the date and time as a string, formatted as a JSON date.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        var d = new Date();
+        var n = d.toJSON();
+        document.getElementById("demo").innerHTML = n;
+    }
+</script>
+
+</body>
+</html>
+

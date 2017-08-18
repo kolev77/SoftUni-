@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.1.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="items">
+    <li>First</li>
+    <li>Second</li>
+    <li>Gosho</li>
+    <li>Pesho</li>
+    <li>Gesho</li>
+</ul>
+
+<button id="showItems">Show</button>
+<script>
+    $(document).ready(function () {
+        $('#showItems').click(extractText);
+    });
+        function extractText() {
+            let itemsJoined = $('#items li').toArray()
+                            .map(li => li.textContent).join(', ');
+
+            $("#result").text(itemsJoined);
+        }
+</script>
+<div id="result"></div>
+
+</body>
+</html>

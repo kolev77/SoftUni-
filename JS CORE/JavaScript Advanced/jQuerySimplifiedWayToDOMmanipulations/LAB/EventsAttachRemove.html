@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<a href="https://judge.softuni.bg/">LINK</a>
+<script>
+
+    $('a.button').on('click', buttonClicked);
+    function buttonClicked() {
+        $('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        // "this" is the event source (the hyperlink clicked)
+    }
+
+//    $('a.button').off('click', buttonClicked);
+
+
+</script>
+</body>
+</html>

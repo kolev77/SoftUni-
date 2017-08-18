@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.1.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="wrapper">
+    <div>Hello, student!</div>
+    <div>Goodbye, student!</div>
+</div>
+
+<script>
+    $('#wrapper div').append("<p>It's party time :)</p>");
+    $('<h1>Greetings</h1>').prependTo('body');
+
+    let div = $('<div>');
+    div.text('I am a new div.');
+    div.css('background', 'blue');
+    div.css('color', 'white');
+    $(document.body).append(div);
+
+    let paragraph = $('<p>Some text</p>');
+    paragraph.appendTo(div);
+
+   // $('div').remove();
+
+</script>
+</body>
+</html>

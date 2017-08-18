@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display a date after changing the year.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        var d = new Date();
+        d.setFullYear(2020);
+        d.setMonth(4);
+        document.getElementById("demo").innerHTML = d;
+    }
+</script>
+
+</body>
+</html>
+

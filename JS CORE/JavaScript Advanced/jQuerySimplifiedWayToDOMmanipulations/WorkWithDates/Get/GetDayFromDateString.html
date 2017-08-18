@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the day of the month from a specific date.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        var d = new Date("July 23, 1983 01:15:00");
+        var n = d.getDate();
+        document.getElementById("demo").innerHTML = n;
+    }
+</script>
+
+</body>
+</html>
+

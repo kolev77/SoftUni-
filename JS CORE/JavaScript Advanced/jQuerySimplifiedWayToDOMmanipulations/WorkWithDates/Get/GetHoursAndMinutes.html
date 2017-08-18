@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the hour of the time right now.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="hours"></p>
+<p id="minutes"></p>
+
+<script>
+    function myFunction() {
+        var d = new Date();
+        var hours = d.getHours();
+        var minutes = d.getMinutes();
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+
+    }
+</script>
+
+</body>
+</html>

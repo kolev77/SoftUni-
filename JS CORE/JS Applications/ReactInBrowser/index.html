@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>text before</p>
+<div id="app"></div>
+<p>text after</p>
+
+<script type="text/babel">
+    let a = "Pesho";
+    let age = 18;
+    let arr = [1, 2, 3, 4];
+    let e = (<div>
+        <p>Hello, {a} !</p>
+        <p data-age={age + 3}>How are you ?</p>
+        <ul>{
+            arr.map(x =>
+                    <li>{x}</li>
+            )
+        }
+        </ul>
+    </div>);
+
+    class Navigation extends React.Component {
+        render() {
+            return (<div>
+                <a href="#">Home</a>
+                <a href="#">Login</a>
+                <a href="#">Logout</a>
+            </div>)
+        }
+    }
+
+    class Person extends React.Component {
+        render() {
+            return (<div>
+                <h1>{this.props.name}</h1>
+                <h1>{this.props.age}</h1>
+            </div>)
+        }
+    }
+
+    let Animal = React.createClass({
+    render: function () {
+       return (<div>
+            <h1>{this.props.name}</h1>
+            <h1>{this.props.age}</h1>
+        </div>)
+    }
+    });
+
+    class Footer extends React.Component {
+        render() {
+            return ( <div id="footer">App 2016</div>)
+        }
+    }
+
+    let app = (<div>
+        <Navigation/>
+        <Person name="Pesho" age="30"/>
+        <Person name="Kiro" age="20"/>
+        <Animal name="Bari" age="3"/>
+        <Person name="Maria" age="18"/>
+        <Footer/>
+    </div>);
+
+    ReactDOM.render(app,$('#app')[0]);
+</script>
+</body>
+</html>

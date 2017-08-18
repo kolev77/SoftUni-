@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+GitHub username:
+<input type="text" id="username" value="nakov"/> <br>
+Repo: <input type="text" id="repo" value="nakov.io.cin"/>
+<button onclick="loadCommits()">Load Commits</button>
+<ul id="commits"></ul>
+<script>
+    function loadCommits() {
+        let commitsContainer = $('#commits');
+        let userName = $('#username').val().trim();
+        let repoName = $('#repo').val().trim();
+
+        if (userName != '' && repoName != '') {
+            $.get({
+                url: generateApiUrl(userName, repoName)
+            })
+                    .then(renderCommits)
+                    .catch(renderError);
+        }
+
+        function renderCommits(commits) {
+            commitsContainer.empty();
+            for (let commit of commits) {
+                addListItem(commitsContainer, `${commit.commit.author.name}: ${commit.commit.message}`);
+            }
+        }
+
+        function renderError(error) {
+            commitsContainer.empty();
+            addListItem(commitsContainer, `Error: ${error.status} (${error.statusText})`);
+        }
+
+        function addListItem(list, itemText) {
+            $('<li>')
+                    .text(itemText)
+                    .appendTo(list);
+        }
+
+        function generateApiUrl(userName, repoName) {
+            return `https://api.github.com/repos/${userName}/${repoName}/commits`;
+        }
+    }
+</script>
+
+</body>
+</html>

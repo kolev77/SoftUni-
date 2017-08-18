@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the date after changing the day of the month.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        var d = new Date();
+        d.setDate(0);
+        document.getElementById("demo").innerHTML = d;
+    }
+</script>
+
+</body>
+</html>
+
