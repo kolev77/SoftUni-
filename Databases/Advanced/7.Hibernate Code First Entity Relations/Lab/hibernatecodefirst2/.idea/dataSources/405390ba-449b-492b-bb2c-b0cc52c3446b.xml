@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ShampooCompany/Hibernate">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="shampoo_db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="2neck_and_elbows"/>
+    <schema id="4" parent="1" name="auto_mapping"/>
+    <schema id="5" parent="1" name="bank2_system_db"/>
+    <schema id="6" parent="1" name="bank_system_db"/>
+    <schema id="7" parent="1" name="book_shop_system"/>
+    <schema id="8" parent="1" name="car_rental_base"/>
+    <schema id="9" parent="1" name="chinook"/>
+    <schema id="10" parent="1" name="closed_judge_system"/>
+    <schema id="11" parent="1" name="demo"/>
+    <schema id="12" parent="1" name="diablo"/>
+    <schema id="13" parent="1" name="examples"/>
+    <schema id="14" parent="1" name="exercises_2"/>
+    <schema id="15" parent="1" name="geography"/>
+    <schema id="16" parent="1" name="gringotts"/>
+    <schema id="17" parent="1" name="hiberspring_db"/>
+    <schema id="18" parent="1" name="hospital_database"/>
+    <schema id="19" parent="1" name="hotel_database"/>
+    <schema id="20" parent="1" name="information_schema"/>
+    <schema id="21" parent="1" name="jdbcdemodb"/>
+    <schema id="22" parent="1" name="minihibernatedb"/>
+    <schema id="23" parent="1" name="minions_db"/>
+    <schema id="24" parent="1" name="movies"/>
+    <schema id="25" parent="1" name="mysql"/>
+    <schema id="26" parent="1" name="my_new_database"/>
+    <schema id="27" parent="1" name="my_store"/>
+    <schema id="28" parent="1" name="neck_and_ellbows"/>
+    <schema id="29" parent="1" name="paymentsystem2"/>
+    <schema id="30" parent="1" name="payment_system3"/>
+    <schema id="31" parent="1" name="performance_schema"/>
+    <schema id="32" parent="1" name="persons"/>
+    <schema id="33" parent="1" name="photography_db"/>
+    <schema id="34" parent="1" name="sales_system"/>
+    <schema id="35" parent="1" name="school"/>
+    <schema id="36" parent="1" name="softuni_db"/>
+    <schema id="37" parent="1" name="soft_uni"/>
+    <schema id="38" parent="1" name="sys"/>
+    <schema id="39" parent="1" name="table_relations"/>
+    <schema id="40" parent="1" name="test"/>
+    <schema id="41" parent="1" name="test_db"/>
+    <schema id="42" parent="1" name="university_database"/>
+    <schema id="43" parent="1" name="university_databasetableperclass"/>
+    <schema id="44" parent="1" name="university_singletable"/>
+    <schema id="45" parent="1" name="users"/>
+    <schema id="46" parent="1" name="vehicles_db"/>
+    <table id="47" parent="2" name="amonium_cloride"/>
+    <table id="48" parent="2" name="chemical_ingredient"/>
+    <table id="49" parent="2" name="hibernate_sequences"/>
+    <table id="50" parent="2" name="ingredients"/>
+    <table id="51" parent="2" name="mints"/>
+    <table id="52" parent="2" name="strawberies"/>
+    <column id="53" parent="47" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="54" parent="47" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="47" name="FK4hojjh8gc836033ue8lsag9v2">
+      <ColNames>id</ColNames>
+      <RefSchemaName>shampoo_db</RefSchemaName>
+      <RefTableName>chemical_ingredient</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="56" parent="48" name="chemical_formula">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="57" parent="48" name="id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="58" parent="48" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="59" parent="48" name="FKhigglfct5vrctipo422oqk11r">
+      <ColNames>id</ColNames>
+      <RefSchemaName>shampoo_db</RefSchemaName>
+      <RefTableName>ingredients</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="60" parent="49" name="sequence_name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="49" name="next_val">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <key id="62" parent="49" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>sequence_name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="50" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="50" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="65" parent="50" name="price">
+      <Position>3</Position>
+      <DataType>decimal(19,2)|0</DataType>
+    </column>
+    <key id="66" parent="50" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="67" parent="51" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="68" parent="51" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="69" parent="51" name="FK893jdtr3fn80rj3bihtldx4b5">
+      <ColNames>id</ColNames>
+      <RefSchemaName>shampoo_db</RefSchemaName>
+      <RefTableName>ingredients</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="70" parent="52" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="71" parent="52" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="72" parent="52" name="FKif298968kmtl3sm81cxkfqd1h">
+      <ColNames>id</ColNames>
+      <RefSchemaName>shampoo_db</RefSchemaName>
+      <RefTableName>ingredients</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

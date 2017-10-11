@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Persistence/Hibernate">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="payment_system3_db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="2neck_and_elbows"/>
+    <schema id="4" parent="1" name="auto_mapping"/>
+    <schema id="5" parent="1" name="bank2_system_db"/>
+    <schema id="6" parent="1" name="bank_system_db"/>
+    <schema id="7" parent="1" name="book_shop_system"/>
+    <schema id="8" parent="1" name="car_rental_base"/>
+    <schema id="9" parent="1" name="chinook"/>
+    <schema id="10" parent="1" name="closed_judge_system"/>
+    <schema id="11" parent="1" name="demo"/>
+    <schema id="12" parent="1" name="diablo"/>
+    <schema id="13" parent="1" name="examples"/>
+    <schema id="14" parent="1" name="exercises_2"/>
+    <schema id="15" parent="1" name="geography"/>
+    <schema id="16" parent="1" name="gringotts"/>
+    <schema id="17" parent="1" name="hiberspring_db"/>
+    <schema id="18" parent="1" name="hospital_database"/>
+    <schema id="19" parent="1" name="hospital_db"/>
+    <schema id="20" parent="1" name="hotel_db"/>
+    <schema id="21" parent="1" name="information_schema"/>
+    <schema id="22" parent="1" name="jdbcdemodb"/>
+    <schema id="23" parent="1" name="minihibernatedb"/>
+    <schema id="24" parent="1" name="minions_db"/>
+    <schema id="25" parent="1" name="movies"/>
+    <schema id="26" parent="1" name="mysql"/>
+    <schema id="27" parent="1" name="my_new_database"/>
+    <schema id="28" parent="1" name="my_store"/>
+    <schema id="29" parent="1" name="neck_and_ellbows"/>
+    <schema id="30" parent="1" name="payment_system_db"/>
+    <schema id="31" parent="1" name="performance_schema"/>
+    <schema id="32" parent="1" name="persons"/>
+    <schema id="33" parent="1" name="photography_db"/>
+    <schema id="34" parent="1" name="sales_db"/>
+    <schema id="35" parent="1" name="sales_system"/>
+    <schema id="36" parent="1" name="school"/>
+    <schema id="37" parent="1" name="shampoo_db"/>
+    <schema id="38" parent="1" name="softuni_db"/>
+    <schema id="39" parent="1" name="soft_uni"/>
+    <schema id="40" parent="1" name="sys"/>
+    <schema id="41" parent="1" name="table_relations"/>
+    <schema id="42" parent="1" name="test"/>
+    <schema id="43" parent="1" name="test_db"/>
+    <schema id="44" parent="1" name="university_database"/>
+    <schema id="45" parent="1" name="university_databasetableperclass"/>
+    <schema id="46" parent="1" name="university_singletable"/>
+    <schema id="47" parent="1" name="users"/>
+    <schema id="48" parent="1" name="vehicles_db"/>
+    <table id="49" parent="2" name="bank_accounts"/>
+    <table id="50" parent="2" name="billing_details"/>
+    <table id="51" parent="2" name="credit_cards"/>
+    <table id="52" parent="2" name="hibernate_sequences"/>
+    <table id="53" parent="2" name="users"/>
+    <column id="54" parent="49" name="name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="55" parent="49" name="swift_code">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="56" parent="49" name="id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="57" parent="49" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="58" parent="49" name="FKt9f4v2hk4gayjmmr94ppie5kb">
+      <ColNames>id</ColNames>
+      <RefSchemaName>payment_system3_db</RefSchemaName>
+      <RefTableName>billing_details</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="59" parent="50" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="50" name="number">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="61" parent="50" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="62" parent="50" name="FK88k6p3c5d8jdybw39vqb3r9ql">
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="63" parent="50" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="64" parent="50" name="FK88k6p3c5d8jdybw39vqb3r9ql">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>payment_system3_db</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="65" parent="51" name="card_type">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="66" parent="51" name="expiration_month">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="67" parent="51" name="expiration_year">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="68" parent="51" name="id">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="69" parent="51" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="70" parent="51" name="FKrxhls5r69imdtcwdody315doa">
+      <ColNames>id</ColNames>
+      <RefSchemaName>payment_system3_db</RefSchemaName>
+      <RefTableName>billing_details</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="71" parent="52" name="sequence_name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="52" name="next_val">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <key id="73" parent="52" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>sequence_name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="53" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="53" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="76" parent="53" name="first_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="77" parent="53" name="last_name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="78" parent="53" name="password">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="79" parent="53" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
