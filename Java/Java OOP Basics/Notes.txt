@@ -1,0 +1,13 @@
+	Access Modifiers
+	----------------
+1. Protected - Can be accessed only by the subclasses in other packages.
+2. Default - Only members of current package has access to our methods
+3. Public - A class, method, constructor declared inside a public class
+	can be accessed from any class belonging to the Java Universe.
+
+
+ 
+
+TO DO:
+	1.Defining Classes - > Exercises -> Problems(9,10,11)
+	2.
