@@ -16,12 +16,12 @@ public class Home {
                 " preparations that can be simple or elaborate, " +
                 "and that share features with other desserts such as" +
                 " pastries, meringues, custards, and pies</p>\n" +
-                "<img src=\"/CakesImages/cake1.jpg\" alt=\"Cake image...\"width=\"600\" height=\"500\">\r\n" +
+                "<img src=\"/Resources/cake1.jpg\" alt=\"Cake image...\"width=\"600\" height=\"500\">\r\n" +
                 "</section>\n" +
                 "<section>\n" +
                 "    <h3 id=\"stores\">Our stores</h3>\n" +
                 "    <p>Our stores are located in 21 cities all over the world. Come and see what we have for you.</p>\n" +
-                "<img src=\"/CakesImages/store.jpg\" alt=\"Store image...\"width=\"600\" height=\"500\">\r\n" +
+                "<img src=\"/Resources/store.jpg\" alt=\"Store image...\"width=\"600\" height=\"500\">\r\n" +
                 "</section>\r\n")
                 .append("<h2 id=\"about-us\">About us</h2>")
                 .append("<dl>\n" +
@@ -30,7 +30,8 @@ public class Home {
                         "    <dt>Rostislav</dt>\n" +
                         "    <dd>Owner</dd>\n" +
                         "</dl>\n")
-                .append("  <pre style=\"background-color: #f94f80\">City: HongKong                City: Salzburg\n" +
+                .append("<pre style=\"background-color: #f94f80\">" +
+                        "City: HongKong                City: Salzburg\n" +
                         "Address: ChoCoLad 18          Address: SchokoLeiden 73\n" +
                         "Phone: +78952804429           Phone: +49241432990\n" +
                         "</pre>\n");
