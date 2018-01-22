@@ -10,11 +10,12 @@ public class Cake {
     }
 
     private void setName(String input) {
+        input = input.trim();
         String[] name = input.split("\\+");
         if (name.length > 1) {
-            this.name = name[0] + " " + name[1];
+            this.name = name[0].replace("+"," ") + " " + name[1].replace("+"," ");
         } else {
-            this.name = input;
+            this.name = input.replace("+"," ");
         }
     }
 

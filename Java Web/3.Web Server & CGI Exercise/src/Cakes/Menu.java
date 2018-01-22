@@ -18,7 +18,7 @@ public class Menu {
                 "            <li><a href=\"/cgi-bin/home.cgi/#stores\">Our stores</a></li>\n" +
                 "        </ol>\n" +
                 "    <li><a href=\"/cgi-bin/addCake.cgi\">Add cake</a></li>\n" +
-                "    <li><a href=\"#\">Browse cakes</a></li>\n" +
+                "    <li><a href=\"/cgi-bin/browseCakes.cgi\">Browse cakes</a></li>\n" +
                 "    <li><a href=\"/cgi-bin/home.cgi/#about-us\">About us</a></li>\n" +
                 "</ul>\n"
                 + "</body>\r\n";
