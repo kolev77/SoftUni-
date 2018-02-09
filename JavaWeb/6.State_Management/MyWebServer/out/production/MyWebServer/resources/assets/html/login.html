@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+<h1>Login form</h1>
+
+<div class="container">
+    <h1>Login here. If you don`t have an account - <a href="register.html">register first</a> </h1>
+    <form method="post" action="/users/login" class="col-4" style="margin-left: 33%;margin-top: 5%">
+        <fieldset>
+            <legend style="text-align: center;margin-bottom: 1em">Login form</legend>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
+                       placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Enter password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </fieldset>
+
+    </form>
+</div>
+</body>
+</html>

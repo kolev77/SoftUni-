@@ -1,0 +1,7 @@
+1.Extract all files from "..\3.Web Server & CGI Exercise\src\Resources\cgi\" into "/cgi-bin".
+
+2.Copy "Cakes" directory from "..\3.Web Server & CGI Exercise\out\production\Web\" into "/cgi-bin".
+
+3.Copy "Resources" directory from "..\3.Web Server & CGI Exercise\src\Resources\" into "/htdocs".
+
+4.Run the project.
