@@ -20,4 +20,14 @@ public class HomeHandler extends BaseDynamicHandler {
         return this.view("index", request, response);
     }
 
+    @Get(route = "/home")
+    public HttpResponse home(HttpRequest request, HttpResponse response) {
+        if (!this.isLoggedIn(request)) {
+            return this.redirect("/login", request, response);
+
+        }
+
+        return this.view("home", request, response);
+    }
+
 }

@@ -10,12 +10,13 @@ import java.util.HashMap;
 abstract class BaseRepository implements Repository {
     private HashMap<String, Method> methods;
 
-    private static final EntityManagerFactory ENTITY_MANAGER_FACTORY =
-            Persistence.createEntityManagerFactory("Casebook");
+    private  EntityManagerFactory entityManagerFactory;
+
     protected EntityManager entityManager;
 
     protected BaseRepository() {
-        this.entityManager = ENTITY_MANAGER_FACTORY.createEntityManager();
+        this.entityManagerFactory = Persistence.createEntityManagerFactory("Casebook");
+        this.entityManager = entityManagerFactory.createEntityManager();
         this.initializeMethods();
     }
 
@@ -55,6 +56,6 @@ abstract class BaseRepository implements Repository {
     @Override
     public void dismiss() {
         this.entityManager.close();
-        ENTITY_MANAGER_FACTORY.close();
+        entityManagerFactory.close();
     }
 }

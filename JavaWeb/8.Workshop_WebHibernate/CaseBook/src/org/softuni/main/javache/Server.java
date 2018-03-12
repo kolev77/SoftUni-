@@ -32,23 +32,17 @@ public class Server {
     }
 
     public void run() throws IOException {
-        this.server = new ServerSocket(this.port);
+        this.server = new ServerSocket(this.port + 1);  // 8001
         System.out.println(LISTENING_MESSAGE + this.port);
 
         this.server.setSoTimeout(SOCKET_TIMEOUT_MILLISECONDS);
 
-//        HttpSession sessionStorage = new HttpSessionImpl();
-//        application.setSession(sessionStorage);
+        HttpSessionStorage sessionStorage = new HttpSessionStorageImpl();
+        this.application.setSessionStorage(sessionStorage);
+        this.application.initializeRoutes();
 
-        HttpSessionStorage httpSessionStorage = new HttpSessionStorageImpl();
-//        application.set
-
-
-//        this.application.setSessionStorage(sessionStorage);
-//        this.application.initializeRoutes();
-
-        while(true) {
-            try(Socket clientSocket = this.server.accept()) {
+        while (true) {
+            try (Socket clientSocket = this.server.accept()) {
                 clientSocket.setSoTimeout(SOCKET_TIMEOUT_MILLISECONDS);
 
                 ConnectionHandler connectionHandler
@@ -56,7 +50,7 @@ public class Server {
 
                 FutureTask<?> task = new FutureTask<>(connectionHandler, null);
                 task.run();
-            } catch(SocketTimeoutException e) {
+            } catch (SocketTimeoutException e) {
                 System.out.println(TIMEOUT_DETECTION_MESSAGE);
                 this.timeouts++;
             }

@@ -1,6 +1,7 @@
 package org.softuni.main.casebook;
 
 
+import org.softuni.main.casebook.handlers.BaseHandler;
 import org.softuni.main.casebook.handlers.utility.ResourceHandler;
 import org.softuni.main.casebook.utilities.HandlerLoader;
 import org.softuni.main.javache.Application;
@@ -20,7 +21,7 @@ public class CasebookApplication implements Application {
     private final ResourceHandler resourceHandler = new ResourceHandler(this.sessionStorage);
 
     public CasebookApplication() {
-        this.initializeRoutes();
+
     }
 
     private void loadActionsForMethod(String method, HandlerLoader handlerLoader) {
@@ -35,6 +36,7 @@ public class CasebookApplication implements Application {
                 handlerConstructor.setAccessible(true);
 
                 Object handlerObject = handlerConstructor.newInstance(this.sessionStorage);
+                BaseHandler handlerHandler = (BaseHandler) handlerObject;
 
                 this.routesTable.putIfAbsent(actionEntry.getKey(), new HashMap<>());
 
@@ -61,7 +63,7 @@ public class CasebookApplication implements Application {
 
     }
 
-    private void initializeRoutes() {
+    public void initializeRoutes() {
         this.routesTable = new HashMap<>();
         HandlerLoader handlerLoader = new HandlerLoader();
         this.loadActionsForMethod("GET", handlerLoader);

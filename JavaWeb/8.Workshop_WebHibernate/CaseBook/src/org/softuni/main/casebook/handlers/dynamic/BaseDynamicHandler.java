@@ -18,7 +18,7 @@ abstract class BaseDynamicHandler extends BaseHandler {
     private static final String VIEWS_EXTENSION = ".html";
 
     protected BaseDynamicHandler(HttpSessionStorage sessionStorage) {
-        super(sessionStorage);
+        super( sessionStorage);
     }
 
 
