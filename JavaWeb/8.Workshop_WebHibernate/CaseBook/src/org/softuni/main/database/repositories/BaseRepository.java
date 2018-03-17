@@ -14,8 +14,8 @@ abstract class BaseRepository implements Repository {
 
     protected EntityManager entityManager;
 
-    protected BaseRepository() {
-        this.entityManagerFactory = Persistence.createEntityManagerFactory("Casebook");
+    protected BaseRepository(EntityManagerFactory entityManagerFactory) {
+        this.entityManagerFactory =entityManagerFactory ;
         this.entityManager = entityManagerFactory.createEntityManager();
         this.initializeMethods();
     }
@@ -56,6 +56,6 @@ abstract class BaseRepository implements Repository {
     @Override
     public void dismiss() {
         this.entityManager.close();
-        entityManagerFactory.close();
+
     }
 }

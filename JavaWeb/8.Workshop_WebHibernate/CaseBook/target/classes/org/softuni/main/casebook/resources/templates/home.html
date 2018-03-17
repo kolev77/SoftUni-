@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
-    <meta charset="UTF-8">
-    <title>Casebook</title>
-</head>
-<body>
-<div class="container">
-    <h2>This is home</h2>
-    <h3>You`ve successfully logged in !</h3>
+<div class="container" xmlns="http://www.w3.org/1999/html">
+    <div class="jumbotron">
+        <h1 class="row justify-content-center align-items-center">This is your Timeline</h1>
+        <hr/>
+        <h2 class="row justify-content-center align-items-center">Here are the people which can be your friends</h2>
 
-    <form method="post" action="/logout">
-        <button type="submit" class="btn btn-primary">Logout</button>
-
-    </form>
+        $(people)
+    </div>
 </div>
-</body>
-</html>

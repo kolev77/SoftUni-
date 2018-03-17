@@ -7,6 +7,8 @@ import org.softuni.main.casebook.utilities.HandlerLoader;
 import org.softuni.main.javache.Application;
 import org.softuni.main.javache.http.*;
 
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -20,6 +22,8 @@ public class CasebookApplication implements Application {
     private HashMap<String, HashMap<String, Function<HttpContext, byte[]>>> routesTable;
     private final ResourceHandler resourceHandler = new ResourceHandler(this.sessionStorage);
 
+    private static final EntityManagerFactory ENTITY_MANAGER_FACTORY = Persistence.createEntityManagerFactory("Casebook");
+
     public CasebookApplication() {
 
     }
@@ -32,10 +36,10 @@ public class CasebookApplication implements Application {
             try {
                 Constructor<?> handlerConstructor = actionEntry.getValue()
                         .getDeclaringClass()
-                        .getDeclaredConstructor(HttpSessionStorage.class);
+                        .getDeclaredConstructor(HttpSessionStorage.class,EntityManagerFactory.class);
                 handlerConstructor.setAccessible(true);
 
-                Object handlerObject = handlerConstructor.newInstance(this.sessionStorage);
+                Object handlerObject = handlerConstructor.newInstance(this.sessionStorage,ENTITY_MANAGER_FACTORY);
                 BaseHandler handlerHandler = (BaseHandler) handlerObject;
 
                 this.routesTable.putIfAbsent(actionEntry.getKey(), new HashMap<>());

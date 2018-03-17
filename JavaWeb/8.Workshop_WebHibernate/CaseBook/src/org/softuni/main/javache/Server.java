@@ -32,7 +32,7 @@ public class Server {
     }
 
     public void run() throws IOException {
-        this.server = new ServerSocket(this.port + 1);  // 8001
+        this.server = new ServerSocket(this.port);
         System.out.println(LISTENING_MESSAGE + this.port);
 
         this.server.setSoTimeout(SOCKET_TIMEOUT_MILLISECONDS);

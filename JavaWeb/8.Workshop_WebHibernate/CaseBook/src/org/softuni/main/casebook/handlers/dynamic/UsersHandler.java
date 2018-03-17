@@ -8,15 +8,18 @@ import org.softuni.main.database.repositories.UserRepository;
 import org.softuni.main.javache.WebConstants;
 import org.softuni.main.javache.http.*;
 
+import javax.persistence.EntityManagerFactory;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 
 @ApplicationRequestHandler
 public class UsersHandler extends BaseDynamicHandler {
 
-    protected UsersHandler(HttpSessionStorage sessionStorage) {
-        super(sessionStorage);
+    protected UsersHandler(HttpSessionStorage sessionStorage, EntityManagerFactory entityManagerFactory) {
+        super(sessionStorage,entityManagerFactory);
     }
 
     @Get(route = "/register")
@@ -26,7 +29,7 @@ public class UsersHandler extends BaseDynamicHandler {
 
     @Post(route = "/register")
     public HttpResponse registerConfirm(HttpRequest request, HttpResponse response) {
-        UserRepository userRepository = new UserRepository();
+        UserRepository userRepository = new UserRepository(entityManagerFactory);
 
         String username = request.getBodyParameters().get("username");
         String password = request.getBodyParameters().get("password");
@@ -34,7 +37,7 @@ public class UsersHandler extends BaseDynamicHandler {
         userRepository.doAction("create", username, password);
 
         userRepository.dismiss();
-        return this.redirect("/", request, response);
+        return this.redirect("/login", request, response);
     }
 
     @Get(route = "/login")
@@ -45,7 +48,7 @@ public class UsersHandler extends BaseDynamicHandler {
 
     @Post(route = "/login")
     public HttpResponse loginConfirm(HttpRequest request, HttpResponse response) {
-        UserRepository userRepository = new UserRepository();
+        UserRepository userRepository = new UserRepository(entityManagerFactory);
 
         String username = request.getBodyParameters().get("username");
         String password = request.getBodyParameters().get("password");
@@ -80,32 +83,58 @@ public class UsersHandler extends BaseDynamicHandler {
         }
         HttpCookie cookie = request.getCookies().get(WebConstants.SERVER_SESSION_TOKEN);
 
+        this.httpSessionStorage.getSession(cookie.getValue()).invalidate();
         this.httpSessionStorage.removeSession(cookie.getValue());
 
-        response.addCookie(new HttpCookieImpl(WebConstants.SERVER_SESSION_TOKEN,"token=deleted; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT"));
+        response.addCookie(new HttpCookieImpl(WebConstants.SERVER_SESSION_TOKEN, "token=deleted; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT"));
 
 
         return this.redirect("/", request, response);
     }
 
-    @Get(route = "/all")
-    public HttpResponse all(HttpRequest request, HttpResponse response) {
+    @Get(route = "/profile")
+    public HttpResponse profile(HttpRequest request, HttpResponse response) {
         if (!this.isLoggedIn(request)) {
             return this.redirect("/login", request, response);
         }
 
-        response.setStatusCode(HttpStatus.OK);
-        response.addHeader("Content-Type", "text/html");
+        UserRepository userRepository = new UserRepository(entityManagerFactory);
+        User user = this.getCurrentUser(request, userRepository);
+        StringBuilder listFriends = new StringBuilder("<table class=\'table\'>");
+        listFriends.append("<tbody>");
 
-        StringBuilder sb = new StringBuilder();
+        for (User friend : user.getFriends()) {
+            listFriends.append("<tr>")
+                    .append("<td>" + friend.getUsername() + "</td>")
+                    .append("</tr>");
+        }
+        listFriends.append("</tbody>");
+        listFriends.append("</table>");
 
-        sb.append("<h1>pesho</h1>").append(System.lineSeparator());
-        sb.append("<h1>gosho</h1>").append(System.lineSeparator());
-        sb.append("<h1>sasho</h1>").append(System.lineSeparator());
-        sb.append("<h1>smesho</h1>").append(System.lineSeparator());
+        this.viewData.putIfAbsent("username", user.getUsername());
+        this.viewData.putIfAbsent("friends", listFriends.toString());
+        userRepository.dismiss();
 
-        response.setContent(sb.toString().getBytes());
-        return response;
+        return this.view("profile", request, response);
+    }
+
+    @Post(route = "/add-friend")
+    public HttpResponse addFriend(HttpRequest request, HttpResponse response) {
+        if (!this.isLoggedIn(request)) {
+            return this.redirect("/login", request, response);
+        }
+        UserRepository userRepository = new UserRepository(entityManagerFactory);
+        User user = this.getCurrentUser(request, userRepository);
+        userRepository
+                .doAction("addFriend",
+                        user.getUsername(),
+                        request
+                                .getBodyParameters()
+                                .get("friend"));
+
+        userRepository.dismiss();
+
+        return redirect("/profile", request, response);
     }
 
 }

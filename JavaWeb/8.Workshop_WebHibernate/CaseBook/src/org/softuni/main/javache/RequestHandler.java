@@ -17,7 +17,7 @@ class RequestHandler {
         HttpResponse httpResponse = new HttpResponseImpl();
 
         this.httpContext = new HttpContextImpl(httpRequest, httpResponse);
-
+        
         return this.application.handleRequest(this.httpContext);
     }
 }
