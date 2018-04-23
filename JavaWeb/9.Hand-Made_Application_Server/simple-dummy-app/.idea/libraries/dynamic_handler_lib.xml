@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dynamic-handler-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../dynamic-handler/out/artifacts/dynamic_handler_lib/dynamic-handler-lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
