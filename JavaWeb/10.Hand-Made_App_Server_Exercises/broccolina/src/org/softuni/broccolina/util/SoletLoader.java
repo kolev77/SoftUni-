@@ -1,4 +1,8 @@
-package org.softuni.javache;
+package org.softuni.broccolina.util;
+
+import org.softuni.broccolina.solet.HttpSolet;
+import org.softuni.broccolina.solet.WebSolet;
+import org.softuni.javache.RequestHandler;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,14 +10,22 @@ import java.lang.reflect.InvocationTargetException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.*;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-public class RequestHandlerLoader {
-    private static final String LIB_FOLDER_PATH = WebConstants.WEB_SERVER_ROOT_FOLDER_PATH + "lib";
+public class SoletLoader {
+    public final String APPLICATION_FOLDER_PATH;
 
-    private HashMap<String, RequestHandler> loadedRequestHandlers;
+    private HashMap<String, HttpSolet> loadedSoletsByApplicationName;
+
+    public SoletLoader(String serverRootPath) {
+        this.APPLICATION_FOLDER_PATH = serverRootPath + "apps";
+    }
+
 
     private boolean isLibraryFile(File file) {
         return file.getName().endsWith(".jar");
@@ -38,11 +50,19 @@ public class RequestHandlerLoader {
                         .replace(".class", "")
                         .replace("/", ".");
 
-                Class handlerClazz = ucl.loadClass(className);
-                if (RequestHandler.class.isAssignableFrom(handlerClazz)) {
-                    RequestHandler handlerObject = (RequestHandler) handlerClazz.getConstructor(String.class)
-                            .newInstance(WebConstants.WEB_SERVER_ROOT_FOLDER_PATH);
-                    this.loadedRequestHandlers.putIfAbsent(handlerObject.getClass().getSimpleName(), handlerObject);
+
+                Class soletClazz = ucl.loadClass(className);
+                if (HttpSolet.class.isAssignableFrom(soletClazz)) {
+                    HttpSolet soletObject = (HttpSolet) soletClazz.getConstructor()
+                            .newInstance();
+
+                    String applicationPath = new File(canonicalPath).getPath();
+
+                    this.loadedSoletsByApplicationName.putIfAbsent(applicationPath
+                                    .substring(applicationPath.lastIndexOf("\\") + 1)
+                                    + soletObject.getClass().getAnnotation(WebSolet.class).route(),
+                            soletObject);
+
                 }
             }
         } catch (MalformedURLException | IllegalAccessException | ClassNotFoundException | NoSuchMethodException | InvocationTargetException | InstantiationException e) {
@@ -65,16 +85,23 @@ public class RequestHandlerLoader {
 
     }
 
-    public void loadRequestHandlers() {
-        this.loadedRequestHandlers = new HashMap<>();
+    public void loadSolets() {
+        this.loadedSoletsByApplicationName = new HashMap<>();
         try {
-            this.loadLibraries(LIB_FOLDER_PATH);
+
+            File appsDir = new File(APPLICATION_FOLDER_PATH);
+            if (!appsDir.exists()) return;
+
+            for (File file : appsDir.listFiles()) {
+                this.loadLibraries(file.getCanonicalPath());
+            }
+            this.loadLibraries(APPLICATION_FOLDER_PATH);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public Map<String, RequestHandler> getLoadedRequestHandlers() {
-        return Collections.unmodifiableMap(this.loadedRequestHandlers);
+    public Map<String, HttpSolet> getSolets() {
+        return Collections.unmodifiableMap(this.loadedSoletsByApplicationName);
     }
 }

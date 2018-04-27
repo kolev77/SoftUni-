@@ -1,40 +1,70 @@
 package org.softuni.broccolina;
 
+import org.softuni.broccolina.solet.*;
+import org.softuni.broccolina.util.SoletLoader;
 import org.softuni.javache.RequestHandler;
 import org.softuni.javache.http.*;
 import org.softuni.javache.io.Reader;
 import org.softuni.javache.io.Writer;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.Map;
 
 public class SoletDispatcher implements RequestHandler {
+    private final String SERVER_ROOT_PATH;
+
     private boolean intercepted;
 
-    private final String serverRootPath;
+    private String cachedInputStreamContent;
+
+    private SoletLoader soletLoader;
 
     public SoletDispatcher(String serverRootPath) {
         this.intercepted = false;
-        this.serverRootPath = serverRootPath;
+        this.SERVER_ROOT_PATH = serverRootPath;
+        this.soletLoader = new SoletLoader(SERVER_ROOT_PATH);
+        this.soletLoader.loadSolets();
+    }
+
+    private String getClientSocketInputStream(InputStream inputStream) throws IOException {
+        if (this.cachedInputStreamContent == null) {
+            this.cachedInputStreamContent = Reader.readAllLines(inputStream);
+        }
+        return this.cachedInputStreamContent;
     }
 
     @Override
     public void handleRequest(InputStream inputStream, OutputStream outputStream) {
+
         try {
-            String requestContent = Reader.readAllLines(inputStream);
+            String requestContent = this.getClientSocketInputStream(inputStream);
 
             HttpRequest request = new HttpRequestImpl(requestContent);
+            HttpSoletResponse response = new HttpSoletResponseImpl(outputStream);
 
-            if (request.getRequestUrl().equals("/")) {
-                HttpResponse response = new HttpResponseImpl();
+            for (Map.Entry<String, HttpSolet> soletEntry : this.soletLoader.getSolets().entrySet()) {
+                String soletRoute = soletEntry.getValue().getClass().getAnnotation(WebSolet.class).route();
 
-                response.setStatusCode(HttpStatus.OK);
-                response.addHeader("Content-Type", "text/html");
-                response.setContent(("<h1>Hello world! </h1><h2>" + this.serverRootPath + "</h2>").getBytes());
-
-                Writer.writeBytes(response.getBytes(), outputStream);
-                this.intercepted = true;
+                if (soletRoute.equals(request.getRequestUrl())) {
+                    if (request.getMethod().equals("GET")) {
+                        soletEntry.getValue().doGet(new HttpSoletRequestImpl(requestContent, null),
+                                response);
+                    } else if (request.getMethod().equals("POST")) {
+                        soletEntry.getValue().doPost(new HttpSoletRequestImpl(requestContent, null),
+                                response);
+                    } else if (request.getMethod().equals("PUT")) {
+                        soletEntry.getValue().doPut(new HttpSoletRequestImpl(requestContent, null),
+                                response);
+                    } else if (request.getMethod().equals("DELETE")) {
+                        soletEntry.getValue().doDelete(new HttpSoletRequestImpl(requestContent, null),
+                                response);
+                    }
+                    Writer.writeBytes(response.getBytes(), outputStream);
+                    this.intercepted = true;
+                }
             }
         } catch (IOException e) {
             this.intercepted = false;

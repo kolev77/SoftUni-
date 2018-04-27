@@ -1,14 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="broccolina">
-    <output-path>$PROJECT_DIR$/out/artifacts/broccolina</output-path>
-    <root id="archive" name="broccolina.jar">
+  <artifact type="jar" build-on-make="true" name="solet">
+    <output-path>$PROJECT_DIR$/out/artifacts/solet</output-path>
+    <root id="archive" name="solet.jar">
       <element id="directory" name="org">
         <element id="directory" name="softuni">
           <element id="directory" name="broccolina">
-            <element id="file-copy" path="$PROJECT_DIR$/out/production/broccolina/org/softuni/broccolina/SoletDispatcher.class" />
-            <element id="directory" name="util">
-              <element id="file-copy" path="$PROJECT_DIR$/out/production/broccolina/org/softuni/broccolina/util/SoletLoader.class" />
-            </element>
             <element id="directory" name="solet">
               <element id="file-copy" path="$PROJECT_DIR$/out/production/broccolina/org/softuni/broccolina/solet/BaseHttpSolet.class" />
               <element id="file-copy" path="$PROJECT_DIR$/out/production/broccolina/org/softuni/broccolina/solet/HttpSolet.class" />
