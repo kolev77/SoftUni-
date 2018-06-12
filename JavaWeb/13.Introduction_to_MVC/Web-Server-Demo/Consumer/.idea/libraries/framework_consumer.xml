@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="framework-consumer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/broccolina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javache.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/summer-framework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="consumer">
+    <output-path>$PROJECT_DIR$/out/artifacts/consumer</output-path>
+    <root id="archive" name="consumer.jar">
+      <element id="module-output" name="Consumer" />
+      <element id="library" level="project" name="framework-consumer" />
+    </root>
+  </artifact>
+</component>

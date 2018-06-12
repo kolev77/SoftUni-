@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--/*@thymesVar id="viwModel" type="org.softuni.model.UserRegisterViewModel"*/-->
+<head>
+    <meta charset="UTF-8"/>
+    <title>Register</title>
+</head>
+<body>
+<form method="post" th:object="${viewModel}">
+    <label>
+        <input type="text" th:field="*{username}"/>
+    </label>
+    <br/>
+    <label>
+        <input type="password" th:field="*{password}"/>
+    </label>
+    <br/>
+    <label>
+        <input type="password" th:field="*{confirmPassword}"/>
+    </label>
+    <br/>
+    <input type="submit" value="Register!"/>
+
+</form>
+</body>
+</html>
