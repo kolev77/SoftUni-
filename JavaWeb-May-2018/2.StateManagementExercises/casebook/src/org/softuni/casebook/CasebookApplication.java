@@ -48,7 +48,7 @@ public class CasebookApplication implements RequestHandler {
 
         this.httpResponse = new HttpResponseImpl();
 
-        if(this.httpRequest
+        if (this.httpRequest
                 .getCookies()
                 .containsKey(CasebookWebConstants.CASEBOOK_SESSION_KEY)) {
             HttpSession clientSession = this.sessionStorage
@@ -59,7 +59,7 @@ public class CasebookApplication implements RequestHandler {
                                     .getValue()
                     );
 
-            if(clientSession == null) {
+            if (clientSession == null) {
                 this.httpRequest.getCookies().remove(CasebookWebConstants.CASEBOOK_SESSION_KEY);
             }
 
@@ -74,9 +74,9 @@ public class CasebookApplication implements RequestHandler {
             result = this.processPostRequest();
         }
 
-        if(this.httpResponse.getSession() != null
+        if (this.httpResponse.getSession() != null
                 && this.sessionStorage.getById(
-                        this.httpResponse.getSession().getId()) == null) {
+                this.httpResponse.getSession().getId()) == null) {
             this.sessionStorage.addSession(this.httpResponse.getSession());
         }
 
@@ -100,10 +100,10 @@ public class CasebookApplication implements RequestHandler {
                     .getDeclaredMethods();
 
             for (Method controllerAction : controllerActions) {
-                if(controllerAction.isAnnotationPresent(GetMapping.class)) {
+                if (controllerAction.isAnnotationPresent(GetMapping.class)) {
                     String actionRoute = controllerAction.getAnnotation(GetMapping.class).route();
 
-                    if(actionRoute.equals(requestUrl)) {
+                    if (actionRoute.equals(requestUrl)) {
                         try {
                             return (byte[]) controllerAction.invoke(controller, httpRequest, httpResponse);
                         } catch (IllegalAccessException | InvocationTargetException e) {
@@ -126,10 +126,10 @@ public class CasebookApplication implements RequestHandler {
                     .getDeclaredMethods();
 
             for (Method controllerAction : controllerActions) {
-                if(controllerAction.isAnnotationPresent(PostMapping.class)) {
+                if (controllerAction.isAnnotationPresent(PostMapping.class)) {
                     String actionRoute = controllerAction.getAnnotation(PostMapping.class).route();
 
-                    if(actionRoute.equals(requestUrl)) {
+                    if (actionRoute.equals(requestUrl)) {
                         try {
                             return (byte[]) controllerAction.invoke(controller, httpRequest, httpResponse);
                         } catch (IllegalAccessException | InvocationTargetException e) {
