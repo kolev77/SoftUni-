@@ -1,0 +1,24 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title th:text="${title}"></title>
+</head>
+<body>
+
+<ul>
+    <!--/*@thymesVar id="model" type="mvc.filters.demofilters.entities.UserCreateViewModel"*/-->
+    <li th:each="courseName : ${model.getCourses()}" th:text="${courseName}"></li>
+</ul>
+
+<form th:method="POST" action="/secured_with_captcha">
+    <input type="text" name="username" placeholder="Enter username.."/>
+    Enter sum of : <span th:text="${num1} + ' ' + ${num2}"></span>
+    <input type="number" name="sum" placeholder="Enter sum here ! ">
+    <br/>
+    <input type="submit">
+</form>
+</body>
+</html>

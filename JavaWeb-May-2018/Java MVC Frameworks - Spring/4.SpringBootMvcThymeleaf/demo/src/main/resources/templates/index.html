@@ -1,0 +1,30 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+Index HTML !
+<hr/>
+
+<div th:each="day : ${daysOfWeek}">
+    <th th:text="${day}"></th>
+</div>
+
+<hr/>
+<div th:text="${#dates.format(date,'dd-MMM-yyyy')}"></div>
+
+<hr/>
+<div th:if="${!#strings.isEmpty(agentName)}">
+    <div th:text="|Agent Name: ${agentName}|"></div>
+</div>
+<hr/>
+
+<div th:text="${#strings.substring(agentName,0,4)}"></div>
+
+<div th:text="${#strings.listJoin(daysOfWeek,' - ')}"></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title th:text="${title}"></title>
+</head>
+<body>
+<h2>Second page </h2>
+<ul>
+    <!--/*@thymesVar id="model" type="mvc.filters.demofilters.entities.UserCreateViewModel"*/-->
+    <li th:each="courseName : ${model.getCourses()}" th:text="${courseName}">   </li>
+</ul>
+
+</body>
+</html>

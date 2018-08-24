@@ -1,0 +1,23 @@
+.nav-bar-rouge {
+    background: #900c45;
+    color: white;
+}
+
+.edited-link {
+     text-decoration: none;
+     color: white;
+ }
+
+.edited-link:hover {
+    text-decoration: none;
+    color: #ced9ea;
+}
+
+.larger{
+    font-size: 1.9em;
+}
+
+.ol-styled{
+    font-size: 1.4em;
+    font-weight: 600;
+}

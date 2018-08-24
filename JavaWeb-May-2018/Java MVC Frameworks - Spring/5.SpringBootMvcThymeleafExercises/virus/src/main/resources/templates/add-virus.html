@@ -1,0 +1,132 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <title> Home </title>
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <th:block th:replace="fragments/navbar"></th:block>
+
+    <div class="container mt-4">
+        <form class="mt-4" th:action="@{/add}" th:method="POST">
+            <h2>Spread a new Virus ! </h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description" rows="3"
+                          style="resize: none"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="sideEffect">Side Effect</label>
+                <input type="text" class="form-control" id="sideEffect" name="sideEffect">
+            </div>
+
+            <div class="form-group">
+                <label for="creator">Creator</label>
+                <input type="text" class="form-control" id="creator" name="creator">
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="isDeadly" id="isDeadly"/>
+                    Is Deadly?
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="isCurable" id="isCurable"/>
+                    Is Curable?
+                </label>
+            </div>
+
+            <fieldset class="form-group">
+                <legend>Mutation</legend>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" id="zombie" value="ZOMBIE" name="mutation"/>
+                        ZOMBIE
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" id="t_0878_tyrant" value="ZOMBIE" name="mutation"/>
+                        T_078_TYRANT
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" id="giant_spider" value="GIANT_SPIDER"
+                               name="mutation"/>
+                        GIANT_SPIDER
+                    </label>
+                </div>
+
+                <div class="form-check ">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" id="save_humanity" value="SAVE_HUMANITY"
+                               name="mutation" disabled/>
+                        Save Humanity
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="turnoverRate">Turnover Rate</label>
+                <input type="number" class="form-control" id="turnoverRate" name="turnoverRate">
+            </div>
+
+            <div class="form-group">
+                <label for="hoursUntilTurn">Hours Until Turn</label>
+                <input type="number" class="form-control" id="hoursUntilTurn" name="hoursUntilTurn">
+            </div>
+
+            <div class="form-group">
+                <label for="magnitude">Magnitude</label>
+                <select class="form-control" id="magnitude" name="magnitude">
+                    <option value="LOW" selected>Low</option>
+                    <option value="MEDIUM">Medium</option>
+                    <option value="HIGH">High</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="releasedOn">Released On</label>
+                <input class="form-control" type="date" id="releasedOn" name="releasedOn"/>
+            </div>
+
+            <div class="form-group">
+                <label for="capitals">Capitals</label>
+                <select multiple class="form-control" id="capitals" name="capitals">
+                    <th:block th:each=" capital : ${model.getCapitals()} ">
+                        <option th:value="${capital}" th:text="${capital}"></option>
+                    </th:block>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary red">Submit</button>
+        </form>
+
+
+    </div>
+
+</div>
+</body>
+</html>
